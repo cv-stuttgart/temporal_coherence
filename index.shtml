@@ -1,0 +1,133 @@
+<!--#include virtual="/header.html" -->
+
+<!-- title of the page -->
+
+
+<!-- ====================================================================== -->
+
+<p class="inFormHeader">Supplementary Material Page</p>
+
+<!--#include virtual="/menu.html" -->
+
+<p class="textNormal" style="text-align: center; font-size: 25px;">
+<br>
+<b>Modeling Temporal Coherence for Optical Flow </b>
+</p>
+<p class="textNormal" style="text-align: center; font-size: 20px;">
+<b><i> ICCV 2011 </i></b>
+</p>
+
+
+<p class="textNormal" style="text-align: center;">
+<br><br>
+<a href="" style="color: #434952; text-decoration: none;">Sebastian Volz<sup>1</sup></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="" style="color: #434952; text-decoration: none;">Andr&eacute;s Bruhn<sup>1</sup></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="" style="color: #434952; text-decoration: none;">Levi Valgaerts<sup>1</sup></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="" style="color: #434952; text-decoration: none;">Henning Zimmer<sup>2</sup></a>
+<br><br>
+<sup>1</sup>Vision and Image Processing Group,<br>
+Saarland University, Campus E 1.1, Saarbr&uuml;cken, Germany<br>
+{<a href="" style="color: #434952; text-decoration:none;">bruhn</a>,
+ <a href="" style="color: #434952; text-decoration:none;">volz</a>}
+<!--spambla-->@mmci.uni-saarland.de<br><br>
+<sup>2</sup>Mathematical Image Analysis Group,<br>
+Saarland University, Campus E1.1, Saarbr&uuml;cken, Germany<br>
+{<a href="" style="color: #434952; text-decoration:none;">valgaerts</a>,
+ <a href="" style="color: #434952; text-decoration:none;">zimmer</a>}
+<!--spambla-->@mia.uni-saarland.de<br><br>
+</p>
+
+<!-- ====================================================================== -->
+
+<!--<div style="color:red; font-size:200%; text-align: center">
+<b>
+Under Construction
+</b>
+</div>
+         -->
+<!-- ====================================================================== -->
+
+<hr style="height: 1px; border: none; background-color: #434952; margin: 10px 10px 10px 10px;">
+<p class="textNormal" style="margin: 0 20px 0 20px; text-align: justify;">
+<br>
+<b>Abstract</b></br>
+<span style="font-style: italic;">
+Despite the fact that temporal coherence is undeniably one of the key
+aspects when processing video data, this concept has hardly been exploited in recent
+optical flow methods.
+In this paper, we will present a novel parametrization for multi-frame
+optical flow computation that naturally enables us to embed the assumption of a
+temporally coherent spatial flow structure, as well as the assumption that the
+optical flow is smooth along motion trajectories. While the first assumption is
+realized by expanding spatial regularization over multiple frames, the second
+assumption is imposed by two novel first- and second-order trajectorial
+smoothness terms. With respect to the latter, we investigate an adaptive
+decision scheme that makes a local (per pixel) or global (per sequence)
+selection of the most appropriate model possible. Experiments show the clear
+superiority of our approach when compared to existing strategies for imposing
+temporal coherence. Moreover, we demonstrate the state-of-the-art performance
+of our method by achieving Top 3 results at the widely used Middlebury benchmark.
+</span></br><br><br>
+<center><img src="images/set_up.jpg"></center>
+<br>
+</p>
+
+<hr style="height: 1px; border: none; background-color: #434952; margin: 10px 10px 20px 10px;">
+
+<!-- ====================================================================== -->
+
+<p class="textNormal">
+This is a supplementary material page for the paper <b>Modeling Temporal Coherence for
+Optical Flow</b>
+that has been published at the
+<a href="http://www.iccv2011.org/" onclick="window.open('http://www.iccv2011.org/'); return false;">
+13th IEEE International Conference on Computer Vision</a> (6-13 Nov. 2011,
+Barcelona, Spain).
+
+<!-- ====================================================================== -->
+
+<p class="textNormal" style="margin: 0 20px 0 20px; text-align:justify">
+<br><b>Downloads</b></br>
+<ul class="textNormal" style="margin: 0 0 0 20px;">
+<li class="textNormal"><a href="volz_iccv2011_sup.pdf">Supplementary Material</a> [pdf, 14.4MB]</li>
+<li class="textNormal"><a href="volz_iccv2011_vid.zip">Supplementary Video</a> [zipped avi, 11MB]</li>
+<li class="textNormal"><a href="volz_iccv2011.bib" type="application/octet-stream">Bibtex</a></li>
+</ul>
+</p>
+<p class="textNormal" style="margin: 0 20px 0 20px; text-align:justify">
+<br><b>Additional Information</b></br>
+<ul class="textNormal" style="margin: 0 0 0 20px;">
+<li class="textNormal"><a href="iccv2011_additional_results.shtml">Additional Experimental Results</a></li>
+</ul>
+</p>
+
+
+<!-- ====================================================================== -->
+
+<br><br>
+
+<!-- ====================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--#include virtual="/footer.html"-->
